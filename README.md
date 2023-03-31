@@ -2,6 +2,9 @@
 
 ## For Production
 
+### safety check
+check https://beaconstate-mainnet.chainsafe.io/ added for fast beacon sync but needs to be validated before running beacon.
+
 ### docker-compose
 
 ```console
