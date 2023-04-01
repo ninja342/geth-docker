@@ -84,7 +84,7 @@ services:
     restart: unless-stopped
     environment:
       - RUST_LOG=info
-      - PATHFINDER_ETHEREUM_API_URL=localhost:8545
+      - PATHFINDER_ETHEREUM_API_URL=geth:8545
     env_file:
       - pathfinder-var.env
     volumes:
